@@ -1,0 +1,6 @@
+- Agregamos esto en el package:
+"start:types": "tsc basics/types.ts --outdir dist/ && node dist/types.js",
+
+-Correr con npm run start:types
+
+-Ejecuta este archivo y crea la carpeta dist dentro esta el archivo types.js
