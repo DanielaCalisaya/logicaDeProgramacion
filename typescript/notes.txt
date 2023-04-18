@@ -1,0 +1,18 @@
+TypeScript
+npm install -g typescript
+
+-Si yo quisiera ejecutar este código dentro de mi proyecto deberia en terminal escribir ->
+tsc index.ts
+
+-Asi transforma mi proyecto de ts en un archivo js, cambiarán algunas cositas
+
+-node index.js
+
+-npm init -y (para el package.json)
+
+-Necesitamos configurar esto en el package
+"scripts": {
+    "start": "tsc index.ts && node index.js",
+}             
+
+-Finalmente corremos con npm run start. Con estas configuraciones transformamos nuestro proyecto de Typescript en javascript
