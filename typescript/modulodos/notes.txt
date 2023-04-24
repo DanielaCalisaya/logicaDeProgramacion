@@ -4,3 +4,9 @@
 -Correr con npm run start:types
 
 -Ejecuta este archivo y crea la carpeta dist dentro esta el archivo types.js
+
+-TS Documentación para ver más utilities
+
+-En la terminal poner tsc --init para crear el archivo tsconfig.json 
+que tendrá todas las configuraciones y permite modificar todos nuestros archivos
+pero no será un archivo que constantemente lo toquemos
